@@ -1,0 +1,12 @@
+/RUNNING_PID
+/logs/
+/project/*-shim.sbt
+/project/project/
+/project/target/
+/target/
+/dynamodb-local/
+.idea/
+.DS_Store
+/lib_managed/
+bin/*
+/modules/**/target

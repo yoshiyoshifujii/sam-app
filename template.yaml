@@ -17,8 +17,8 @@ Resources:
   HelloWorldFunction:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
     Properties:
-      CodeUri: target/HelloWorld-1.0.jar
-      Handler: helloworld.App::handleRequest
+      CodeUri: modules/api/target/scala-2.12/sam-sample-api-0.1.0-SNAPSHOT.jar
+      Handler: gets.App::handleRequest
       Environment: # More info about Env Vars: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#environment-object
         Variables:
           PARAM1: VALUE
